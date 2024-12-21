@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manajemen Film</title>
+</head>
+    <body class="bg-gray-100 p-8">
+        <div class="max-w-4xl mx-auto bg-white p-6 rounded-lg shadow-md">
+            <h1 class="text-3xl font-bold mb-6">Manajemen Film</h1>
+            
+            <form id="movieForm" class="mb-8">
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                    <input type="text" id="titleName" placeholder="Judul Film" class="border p-2 rounded" required>
+                    <input type="text" id="directorName" placeholder="Sutradara" class="border p-2 rounded" required>
+                    <input type="number" id="year" placeholder="Tahun Rilis" class="border p-2 rounded" required>
+                    <button type="submit" id="btnTambah" class="mt-4 bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Tambah Film</button>
+                </div>
+            </form>
+            <ol id="movieList">
+
+            </ol>
+            <script src="script.js"></script>  
+    </body>
+    </html>
